@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Noto+Sans+KR&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-start; */
+  border-bottom: 1px solid;
+}
+
+.logo img {
+  width: 250px;
+  margin-top: 10px;
+  /* height: 10%; */
+}
+
+.logo p {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+}
+
+.navMenu a:visited, a {
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navMenu a:hover {
+  font-weight: bold;
+}
+
+.insetContent {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+h3 {
+  font-size: 32px;
+  color: #fa0;
+}
+
+.footer {
+  display: flex;
+  color: grey;
+  height: 100px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 100px;
+  margin-bottom: 10px;
+  border-top: 1.5px solid;
+}
+
+.footer p {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 30px;
+}
