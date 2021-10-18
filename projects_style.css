@@ -47,3 +47,19 @@ body, html {
 .navMenu a:hover {
   font-weight: bold;
 }
+
+.footer {
+  display: flex;
+  color: grey;
+  height: 100px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 100px;
+  margin-bottom: 10px;
+  border-top: 1.5px solid;
+}
+
+.footer p {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 30px;
+}
