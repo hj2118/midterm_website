@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 24px;
+  background-color: #feeecc;
 }
 
 body, html {
@@ -60,7 +61,8 @@ h2 {
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
   /* color: #7eb300; */
-  color: #fb3;
+  /* color: #fb3; */
+  color: #ed9121;
 }
 
 .insetContent a, .insetContent a:visited {

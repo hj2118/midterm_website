@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 24px;
-  /* background-color: #feeecc; */
+  background-color: #feeecc;
 }
 
 body, html {
@@ -49,6 +49,12 @@ body, html {
   font-weight: bold;
 }
 
+/* .heroSection {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+} */
+
 .insetContent {
   margin-left: 100px;
   margin-right: 100px;
@@ -61,7 +67,7 @@ h2 {
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
   /* color: #7eb300; */
-  color: #fb3;
+  color: #ed9121;
 }
 
 h3 {
