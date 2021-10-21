@@ -49,11 +49,13 @@ body, html {
   font-weight: bold;
 }
 
-/* .heroSection {
+.heroSection {
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
   display: flex;
   justify-content: center;
-  height: 700px;
-} */
+}
 
 .insetContent {
   margin-left: 100px;
@@ -62,7 +64,7 @@ body, html {
 
 h2 {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   font-size: 40px;
   text-align: center;
   font-family: 'Nanum Gothic', sans-serif;
@@ -70,17 +72,51 @@ h2 {
   color: #ed9121;
 }
 
+.subtitle {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  font-size: 20px;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
 h3 {
   font-size: 32px;
   color: #fa0;
 }
 
-.heroSection {
-  height: 500px;
-  background-size: cover;
-  background-position: center center;
+.insetContent a:hover, .insetContent a {
+  color: black;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 24px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.letter {
+  font-size: 24px;
+  /* font-family: 'Nanum Gothic Coding', sans-serif; */
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.gallerySection {
+  border: 0.5px solid;
+}
+.gallery {
   display: flex;
+}
+
+.items {
+  display: flex;
+  flex-basis: 100%;
   justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.images {
+  width: 100%;
+  object-fit: cover;
 }
 
 .footer {
