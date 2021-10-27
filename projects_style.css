@@ -92,6 +92,9 @@ h3 {
 }
 
 .imageDescription {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 30px;
   width: 100%;
   position: absolute;
   padding-left: 20px;
@@ -102,6 +105,7 @@ h3 {
   font-family: 'Nanum Gothic Coding', monospace;
   font-weight: bold;
   font-size: 25px;
+  pointer-events: none;
 }
 
 .items:hover .imageDescription {
